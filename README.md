@@ -1,10 +1,10 @@
-#Get random number 🔥
+# Get random number 🔥
 
 A beautiful demo package
 
-##Installation
+## Installation
 
-##Local Development
+## Local Development
 
 ```bash
     composer install
