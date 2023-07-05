@@ -1,0 +1,28 @@
+{
+    "name": "fpalvadeau/oss-td2",
+    "description": "Demo package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fpalvadeau\\OssTd2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian PALVADEAU",
+            "email": "florian.palvadeau@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyze src --level=max",
+        "test": "@php vendor/bin/phpunit tests"
+    }
+}
